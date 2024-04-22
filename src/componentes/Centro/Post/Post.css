@@ -1,0 +1,11 @@
+.Post {
+    background-color: red;
+    width: 500px;
+}
+
+.Post .card-header {
+    background-color: blue;
+}
+.Post .card-body  img{
+    width: 100%;
+}

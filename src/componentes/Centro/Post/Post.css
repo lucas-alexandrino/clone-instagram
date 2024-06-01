@@ -5,7 +5,13 @@
 
 .Post .card-header {
     background-color: blue;
+   padding: 5px;
 }
 .Post .card-body  img{
     width: 100%;
+}
+.left-icon {
+    float: right; /* Alinha o ícone à esquerda */
+    margin-right: 10px; /* Adiciona um espaço entre o ícone e o título */
+
 }

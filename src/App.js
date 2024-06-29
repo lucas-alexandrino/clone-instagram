@@ -1,24 +1,21 @@
+
 import './App.css';
-import Esquerda from './componentes/Esquerda/ConteudoLateralEsquerda';
-import ConteudoCentral from './componentes/Centro/ConteudoCentral';
+import Esquerda from './componentes/estatico/conteudoLaterilEsquerdo/ConteudoLateralEsquerda';
+import ConteudoCentral from './componentes/conteudoCentral/ConteudoCentral';
+import Direita from "./componentes/conteudoDireito/ConteudoLateralDireita.js"
+// JSX 
 
 function App() {
   return (
     <>
       <Esquerda />
 
-      <ConteudoCentral />
+      <div className='conteudoCentral'>
+        <ConteudoCentral/>
+      </div>
       
       <div className='conteudoLateralDireita'>
-        {/* 
-          Login
-          SugestÃµes de amigos
-          SugestÃµes de contas
-          SugestÃµes de hashags
-          SugestÃµes de locais
-          SugestÃµes de posts patrocinados
-          Link legais
-        */}
+        <Direita/>
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 body {
-  background: #fafafa;
-  height: 100vh;
+  background-color: rgb(253, 253, 253);
+  overflow-x: hidden;
 }
 
 #root {
@@ -14,22 +14,20 @@ body {
 .conteudoCentral {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .conteudoLateralEsquerda {
   display: flex;
-  min-width: 20vw;
+  width: 18vw;
+  position: fixed;
 }
 
 .conteudoLateralDireita {
-  background: blue;
-  width:20vw;
-  
+  width:30vw;
+  padding: 30px;
 }
 
 .conteudoCentral {
-  flex-direction: row;
-  width:65vw;
-  background: yellow;
+  width:60vw;
+  margin: 0 0 0 15vw;
 }
